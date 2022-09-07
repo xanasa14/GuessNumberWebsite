@@ -35,8 +35,10 @@ function higherLower(){
     tableHeaderData = `<tr> 
         <th scope="col">Round</th>
         <th scope="col">Number</th>
-        </tr>
+        </tr> 
     `
+
+    
     const tableHead = document.querySelector("#tableHead");
         tableHead.innerHTML = tableHeaderData;
     //Repeated Numbers Logic
