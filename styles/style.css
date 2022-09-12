@@ -1,7 +1,15 @@
+Body{
+    display: none;
+}
+
 .tryAgainButton {
     margin-top: 1%;
     margin-right: 2%;
     position:absolute; top:0; right:0;
+    background-color: #F06E3E;
+    border-color: #F06E3E;
+
+
 }
 
 .theHeader {
@@ -16,16 +24,44 @@
     text-align: center;
     justify-content: center;
     margin-left: 45%;
-    
-    
+    background-color: #F06E3E;
+    border-color: #F06E3E;
 
 }
 
 .inputBox {
     size:"3";
     margin-right: 70%;
+    margin-left:16px;
 
 }
 .myDIV {
     background-image: url("images/02-image-example.png");  
-  }  
+  } 
+.finalBox{
+    margin-left: 16px;
+}
+
+.textLabels{
+    font-size: 2rem;
+    font-family: 'Berkshire Swash',Arial;
+  }
+
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #F06E3E;
+    border-color: #F06E3E;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #F06E3E;
+    border-color: #F06E3E;
+    box-shadow: 0 0 0 0.2rem rgba(212, 68, 7, 0.5);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #F06E3E;
+    border-color: #F06E3E;
+}

@@ -5,22 +5,21 @@
         <meta charset="utf-8">
         <meta rel="stylesheet" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+        <link href="styles/style.css" rel="stylesheet">
         <title>Higher Lower</title>
     </head>
-    <body background="https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-        <link href="styles/style.css" rel="stylesheet">
-
-     
+    <body background="images/26340321.jpg">
         <div class="container">
-            <h1 class="theHeader">Higher - Lower</h1>
+            <h1 class="theHeader" style="font-size: 3.5rem; font-family: 'Berkshire Swash',Arial;">Higher - Lower</h1>
 
-            <p id="guessFrom1ToX">
+            <p id="guessFrom1ToX" class="textLabels">
 
         <div class="row">
             <div class="col-lg-3 col-md=6">
                 <form>
-                    <div class="form-grpup">
-                        <label>Your Guess:</label>
+                    <div class="form-grpup textLabels">
+                        <label class="textLabels">Your Guess:</label>
                         <div class="form-group row">
                             <input type="text" id="guess" class="inputBox">
                         </div>
@@ -33,7 +32,7 @@
                 <button id="guessButton" type="button" class="btn btn-primary guessButton btn-md" >Guess!</button>
             </div>
 
-        <div> 
+        <div class="finalBox"> 
             <p id="message"></p>
             <table class="table table-striped" border="2">
                 <thead class="thead-light">

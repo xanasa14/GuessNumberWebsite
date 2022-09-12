@@ -125,6 +125,9 @@ while(guessGame.flag){
  
            console.log('the random number is,', guessGame.randomNumber);
            guessGame.flag = false; 
+           document.getElementsByTagName("Body")[0].style.display = "block";
+
+
            break;
        }
    }
